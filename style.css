@@ -1,5 +1,5 @@
 body {
-  background-color: #F5E6D3;
+  background-color: #EFE0C7 !important;
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -37,12 +37,11 @@ h2 {
 .project-card {
   width: 220px;
   height: 160px;
-  background-color: #2b2b2b;
   border-radius: 10px;
-  display: flex;
+  background-color: #B89B7A !important;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #EFE0C7;
   font-size: 18px;
   cursor: pointer;
   opacity: 0;
@@ -51,6 +50,7 @@ h2 {
 .card-1 {
   animation: slideFromTopLeft 1s ease-out forwards;
   animation-delay: 0.2s;
+
 }
 
 .card-2 {
@@ -111,4 +111,25 @@ h2 {
 .fa-paw {
   font-size: 20px;
   color: #B89B7A;
+}
+
+.project-card img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  opacity: 10px;
+  border-radius: 10px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+}
+
+.project-info {
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  display: flex;
 }
