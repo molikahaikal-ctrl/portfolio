@@ -17,14 +17,21 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1px;
+  /*changed added a padding*/
 }
 
 .Hero img {
-  width: 190%;
+  width: 100%;
   max-width: 1400px;
-  height: 550px;
+  height: auto;
+  /* heigh was at 550px i change to auto*/
   display: block;
   border-radius: 15px;
+  object-fit: cover;
+  max-height: 550px;
+  /*add this max-heigh*/
+
 }
 
 .projects-container {
@@ -32,12 +39,15 @@ h2 {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  padding: 40px;
+  padding: 20px 15px;
 }
 
 .project-card {
-  width: 220px;
-  height: 160px;
+  width: 100%;
+  /* the width was at 220px*/
+  max-width: 280px;
+  height: auto;
+  /* heigh was at 160px*/
   border-radius: 10px;
   background-color: #B89B7A !important;
   align-items: center;
@@ -120,16 +130,17 @@ h2 {
 }
 
 .project-card img {
-  width: 220px;
+  width: 100%;
+  /*the width was at 220px*/
   height: 160px;
   object-fit: cover;
-  display: block;
-  opacity: 10px;
-  border-radius: 10px;
-  align-items: center;
+  /*display: block;*/
+  /*opacity: 10px;*/
+  border-radius: 10px 10px 0 0;
+  /*align-items: center;*/
   cursor: pointer;
-  justify-content: center;
-  display: flex;
+  /*justify-content: center;*/
+  /*display: flex;*/
 }
 
 .project-info {
@@ -150,31 +161,37 @@ h2 {
   margin-left: 10%;
 }
 
+.Skills {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 15px;
+}
+
 .Skills-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
-
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .card-body-skills {
   background: linear-gradient(to right, #EFE0C7, #B89B7A);
   align-items: normal;
-  width: 220px;
-  height: 220px;
+  width: 100%;
+  /*the width was at 220px*/
+  height: auto;
+  /*height was at 220px*/
+  max-width: 280px;
+  min-height: 220px;
   box-shadow: 0 4px 8px;
   border-radius: 5px;
   display: grid;
   padding: 15px;
   font-size: 88%;
-}
-
-.Skills {
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  text-emphasis: auto;
 }
 
 .skill-heading {
@@ -186,10 +203,48 @@ h2 {
   margin-bottom: 12px;
 }
 
+
 .list-style-type {
   list-style: none;
   letter-spacing: 2px;
   word-spacing: 10%;
 }
 
-.menu-nav {}
+.menu-nav {
+  display: flex;
+  /* align-items: flex-start;*/
+  gap: 15px;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+
+  h1,
+  h2 {
+    font-size: 26px;
+  }
+
+  .title-decoration {
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+  .line {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .social-media {
+    margin-left: 10%;
+    justify-content: flex-start;
+  }
+
+  .menu-nav {
+    font-size: 25px;
+  }
+}
