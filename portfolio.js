@@ -1,4 +1,4 @@
-const bodyElement = document.body;
+/*const bodyElement = document.body;
 
 function adjustLayoutForscreen() {
   const screenWith = window.innerWidth;
@@ -13,4 +13,4 @@ function adjustLayoutForscreen() {
   }
 }
 window.addEventListener("DOMContentLoaded", adjustLayoutForscreen);
-window.addEventListener("resize", adjustLayoutForscreen);
+window.addEventListener("resize", adjustLayoutForscreen);*/
