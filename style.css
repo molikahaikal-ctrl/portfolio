@@ -1,5 +1,5 @@
 body {
-  background-color: #EFE0C7 !important;
+  background: linear-gradient(to right, #EFE0C7, #B89B7A);
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -18,7 +18,7 @@ h2 {
   justify-content: center;
   align-items: center;
   padding: 1px;
-  /*changed added a padding*/
+  margin-top: 70px;
 }
 
 .Hero img {
@@ -114,7 +114,7 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 .line {
@@ -151,7 +151,7 @@ h2 {
   display: flex;
 }
 
-.social-media {
+/*.social-media {
   display: flex;
   gap: 12px;
   font-size: 32px;
@@ -159,7 +159,7 @@ h2 {
   align-items: flex-start;
   text-decoration: none;
   margin-left: 10%;
-}
+}*/
 
 .Skills {
   display: flex;
@@ -211,14 +211,24 @@ h2 {
 }
 
 .menu-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 12px 0;
   display: flex;
-  /* align-items: flex-start;*/
   gap: 15px;
   font-size: 25px;
   align-items: center;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background: linear-gradient(to bottom,
+      rgba(239, 224, 199, 0.85),
+      rgba(239, 224, 199, 0.2));
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 @media screen and (max-width: 767px) {
@@ -230,7 +240,7 @@ h2 {
 
   .title-decoration {
     gap: 10px;
-    padding-top: 20px;
+    padding-top: 50px;
   }
 
   .line {
@@ -238,13 +248,13 @@ h2 {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .social-media {
     margin-left: 10%;
     justify-content: flex-start;
   }
 
   .menu-nav {
-    font-size: 25px;
+    font-size: 15px;
   }
 }
