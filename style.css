@@ -295,3 +295,55 @@ h2 {
   line-height: 1.6;
   /* Adds comfortable spacing between text lines */
 }
+
+@media screen and (min-width: 767px) {
+  .introduction {
+    width: 100%;
+    padding: 0 20px;
+    text-align: left;
+  }
+
+  .paragraphe {
+    text-align: left;
+    width: 100%;
+    max-height: fit-content;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+}
+
+.contact-me {
+  /* display: flex;*/
+  align-items: center;
+  width: 55%;
+  max-width: 650px;
+  margin-left: auto;
+  /* gap: 20px;*/
+  margin-bottom: 60px;
+}
+
+.fa-linkedin {
+  /*display: inline-block;*/
+
+  border-radius: 50%;
+  overflow: hidden;
+  /*margin-left: 10px 20px;*/
+  font-size: 50px;
+  /*display: inline-block;*/
+  /*vertical-align: top;*/
+  width: 55%;
+  max-width: 650px;
+  padding: 0 20px;
+  /*text-align: left 15px;*/
+  transform: translate(-500px, 80px);
+
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+}
