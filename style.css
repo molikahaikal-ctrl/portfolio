@@ -151,15 +151,7 @@ h2 {
   display: flex;
 }
 
-/*.social-media {
-  display: flex;
-  gap: 12px;
-  font-size: 32px;
-  color: #3D3D3D;
-  align-items: flex-start;
-  text-decoration: none;
-  margin-left: 10%;
-}*/
+
 
 .Skills {
   display: flex;
@@ -265,7 +257,7 @@ h2 {
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
   /* Shadow sitting smoothly on the outside */
   overflow: hidden;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 .about-me {
@@ -273,4 +265,25 @@ h2 {
   max-width: 350px;
   height: auto;
   display: block;
+}
+
+.introduction {
+  display: inline-block;
+  vertical-align: top;
+  width: 55%;
+  max-width: 650px;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-top: 5%;
+}
+
+.paragraphe {
+  text-align: left;
+  /* Centers the paragraph text */
+  line-height: 1.6;
+  /* Adds comfortable spacing between text lines */
 }
