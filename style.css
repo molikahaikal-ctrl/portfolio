@@ -296,7 +296,7 @@ h2 {
   /* Adds comfortable spacing between text lines */
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
   .introduction {
     width: 100%;
     padding: 0 20px;
@@ -328,22 +328,35 @@ h2 {
 
 .fa-linkedin {
   /*display: inline-block;*/
-
   border-radius: 50%;
   overflow: hidden;
   /*margin-left: 10px 20px;*/
   font-size: 50px;
   /*display: inline-block;*/
   /*vertical-align: top;*/
-  width: 55%;
-  max-width: 650px;
+  width: 180px;
+  max-width: none;
   padding: 0 20px;
   /*text-align: left 15px;*/
-  transform: translate(-500px, 80px);
+  transform: translate(-400px, 100px);
 
 }
 
 .contact-text {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .fa-linkedin {
+    transform: translate(-105px, 90px);
+    width: 180px;
+    max-width: none;
+    overflow: hidden;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
