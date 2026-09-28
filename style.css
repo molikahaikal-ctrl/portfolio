@@ -377,36 +377,92 @@ html {
 
 .card-jobeasy {
   display: flex;
+  align-items: flex-start;
+  margin: 20px 60px;
+  gap: 40px;
+  animation: slideProject 0.7s ease-out both;
+  animation-delay: 0.2s;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+
+#carousel-card-jobeasySlidesOnly {
+  display: flex;
   width: 100%;
-  max-width: 550px;
+  max-width: 500px;
   height: 350px;
   align-items: flex-start;
   margin: 20px 60px;
   gap: 40px;
-  animation: slideProject 0.7s ease-out forwards;
-  animation-delay: 0.5s;
+  animation: slideProject 0.7s ease-out both;
+  animation-delay: 0.2s;
+}
+
+.card-body-jobeasy {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 20px;
+
+
 }
 
 .card-dreamapp {
   display: flex;
+  align-items: flex-start;
+  margin: 20px 60px;
+  gap: 40px;
+  animation: slideProject 0.6s ease-out both;
+  animation-delay: 0.2s;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+
+#carousel-card-dreamappSlidesOnly {
+  display: flex;
   width: 100%;
-  max-width: 550px;
+  max-width: 500px;
   height: 350px;
   align-items: flex-start;
   margin: 20px 60px;
   gap: 40px;
-  animation: slideProject 0.6s ease-out forwards;
+  animation: slideProject 0.6s ease-out both;
   animation-delay: 0.2s;
 }
 
+.card-body-dreamapp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 20px;
+
+}
+
+
+
 .card-TET {
   display: flex;
+  align-items: flex-start;
+  margin: 20px 60px;
+  gap: 40px;
+  animation: slideProject 0.6s ease-out both;
+  animation-delay: 0.2s;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+
+#carousel-card-TETSlidesOnly {
+  display: flex;
   width: 100%;
-  max-width: 550px;
+  max-width: 500px;
   height: 350px;
   align-items: flex-start;
   margin: 20px 60px;
   gap: 40px;
-  animation: slideProject 0.7s ease-out forwards;
+  animation: slideProject 0.6s ease-out both;
   animation-delay: 0.2s;
+}
+
+.card-body-TET {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 20px;
 }
