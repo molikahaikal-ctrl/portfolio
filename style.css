@@ -108,6 +108,15 @@ h2 {
   }
 }
 
+
+
+.project-logo {
+  width: 15px;
+}
+
+
+
+
 /* Title Decoration & Lines Fix */
 .title-decoration {
   display: flex;
@@ -465,4 +474,18 @@ html {
   flex-direction: column;
   margin-top: 25px;
   margin-left: 20px;
+}
+
+.logo-design {
+  /* Controls logo see-through effect */
+  opacity: 0.3;
+
+  /* Smooth transition for the hover effect */
+  transition: all 0.3s ease;
+}
+
+/* Color/brightness change on hover */
+.logo-design:hover {
+  opacity: 1;
+  filter: brightness(1.2);
 }
