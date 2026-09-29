@@ -411,7 +411,7 @@ html {
   align-items: flex-start;
   margin: 20px 60px;
   gap: 40px;
-  animation: slideProject 0.6s ease-out both;
+  animation: slideProject 0.7s ease-out both;
   animation-delay: 0.2s;
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
 }
@@ -424,7 +424,7 @@ html {
   align-items: flex-start;
   margin: 20px 60px;
   gap: 40px;
-  animation: slideProject 0.6s ease-out both;
+  animation: slideProject 0.7s ease-out both;
   animation-delay: 0.2s;
 }
 
@@ -443,7 +443,7 @@ html {
   align-items: flex-start;
   margin: 20px 60px;
   gap: 40px;
-  animation: slideProject 0.6s ease-out both;
+  animation: slideProject 0.7s ease-out both;
   animation-delay: 0.2s;
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
 }
